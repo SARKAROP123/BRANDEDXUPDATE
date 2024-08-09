@@ -74,14 +74,6 @@ def stream_markup_timer(_, chat_id, played, dur):
                 text="sᴜᴘᴘᴏʀᴛ 💌", url="https://t.me/TG_NAME_STYLE",
             ),
         ],
-        [
-            InlineKeyboardButton(
-                 text="🌹 sᴏᴜʀᴄᴇ 🌹", url=f"https://t.me/TKS_CHAT_JOIN_BABY",
-            ),
-            InlineKeyboardButton(
-                text="🦋ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/TKS_CHAT_JOIN_BABY",
-            ),
-        ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
     return buttons
@@ -102,14 +94,6 @@ def stream_markup(_, chat_id):
             ),
             InlineKeyboardButton(
                 text="sᴜᴘᴘᴏʀᴛ 💌", url="https://t.me/TG_NAME_STYLE",
-            ),
-        ],
-        [
-            InlineKeyboardButton(
-                text="🌹 sᴏᴜʀᴄᴇ 🌹", url=f"https://t.me/TKS_CHAT_JOIN_BABY",
-            ),
-            InlineKeyboardButton(
-                text="🦋 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/TG_NAME_STYLE",
             ),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
